@@ -5,7 +5,7 @@ function createApp() {
   
   app.get('/', (req, res) => {
     res.json({ 
-      message: 'Hola Mundo desde Express!',
+      message: 'Hola Mundo desde Express! CI/CD working',
       timestamp: new Date().toISOString()
     });
   });
